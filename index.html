@@ -7,10 +7,11 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/mediaqueries.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Modiehi Mother Shapu</div>
+      <div class="logo">Modiehi.</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -20,8 +21,9 @@
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
-      <div class="logo">Modiehi Shapu</div>
+      <div class="logo">Modiehi.</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,18 +40,17 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img
-          src="images/dimpho-shapu.jpg"
-          alt="Modiehi Shapu profile picture"
-          class="profile-picture"
-        />
+        <img src="images/dimpho-shapu.jpg" alt="An image of Modiehi Shapu" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I am</p>
         <h1 class="title">Mother Modiehi Shapu</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p2">Front-End Developer | UX Design</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('cv.pdf')">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('tlhonolofatso-CV.pdf')"
+          >
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -72,6 +73,7 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
